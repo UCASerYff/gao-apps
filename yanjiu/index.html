@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN" data-root="../">
+<html lang="zh-CN" translate="no" data-root="../">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -13,58 +13,91 @@
 <link rel="canonical" href="https://ucaseryff.github.io/gao-apps/yanjiu/">
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../assets/site.css">
+<script type="application/json" id="gao-meta">{"title":{"zh": "搞研究 · 论文、成果与投稿，安放在一间学术工作室里 | 搞系列", "en": "搞研究 · Papers, results, and submissions, kept in one academic studio | 搞系列"},"description":{"zh": "独立 macOS 应用，包含本模块完整业务、游戏场景和 WidgetKit 小组件。运行不依赖搞系列其他应用；联动功能需要同时安装相关应用。", "en": "A standalone macOS app with this module’s full workflow, a game scene, and WidgetKit widgets. It runs without the other 搞系列 apps; linked features need the related apps installed as well."}}</script>
+<script type="application/json" id="gao-ui">{"skip": {"zh": "跳到正文", "en": "Skip to content"}, "apps_nav": {"zh": "八个应用", "en": "Eight apps"}, "lang_label": {"zh": "语言", "en": "Language"}, "overview": {"zh": "总览", "en": "Overview"}, "source": {"zh": "本站源码", "en": "Site source"}, "hosted": {"zh": "安装包均托管在各应用仓库的 GitHub Releases", "en": "Installers are hosted on each app’s GitHub Releases"}, "credit": {"zh": "搞系列 · 作者 非凡（Feifan Yu）", "en": "搞系列 · Author 非凡 (Feifan Yu)"}, "not_found": {"zh": "页面不存在", "en": "Page not found"}, "not_found_title": {"zh": "页面不存在 | 搞系列", "en": "Page not found | 搞系列"}, "not_found_desc": {"zh": "页面不存在", "en": "Page not found"}, "back_home": {"zh": "回到搞系列总览", "en": "Back to the 搞系列 overview"}, "home_title": {"zh": "搞系列 · 八个原生 macOS 应用", "en": "搞系列 · Eight native macOS apps"}, "home_desc": {"zh": "搞系列：搞研究、搞节奏、搞积蓄、搞词元、搞机灵、搞门户、搞文件、搞操作，八个原生 macOS 应用的介绍与下载。", "en": "搞系列: 搞研究, 搞节奏, 搞积蓄, 搞词元, 搞机灵, 搞门户, 搞文件, and 搞操作 — introductions and downloads for eight native macOS apps."}, "home_kicker": {"zh": "八个应用", "en": "Eight apps"}, "home_sub": {"zh": "研究、节奏、积蓄、词元、机灵、门户、文件、操作——八个各管一件事的原生 macOS 应用，数据都留在你自己的 Mac 上。", "en": "Research, rhythm, savings, tokens, alertness, portals, files, and actions — eight native macOS apps, each responsible for one thing, with data kept on your own Mac."}, "chip_os": {"zh": "macOS 14 或更高", "en": "macOS 14 or later"}, "chip_silicon": {"zh": "Apple Silicon", "en": "Apple Silicon"}, "chip_source": {"zh": "源码公开在 GitHub", "en": "Source is public on GitHub"}, "chip_data": {"zh": "安装包不含个人数据", "en": "Installers contain no personal data"}, "more": {"zh": "了解 →", "en": "Details →"}, "unavailable": {"zh": "暂不可下载", "en": "Not available"}, "no_pkg": {"zh": "暂无正式安装包", "en": "No stable installer yet"}, "see_releases": {"zh": "查看发布页", "en": "View releases"}, "download": {"zh": "下载", "en": "Download"}, "release_notes": {"zh": "发布说明", "en": "Release notes"}, "sha_file": {"zh": "SHA-256 校验文件", "en": "SHA-256 file"}, "all_versions": {"zh": "所有版本", "en": "All versions"}, "meta_line": {"zh": "{size} · {date} 发布", "en": "{size} · Released {date}"}, "no_intel_short": {"zh": "暂无 Intel 版", "en": "No Intel version"}, "zip_pkg": {"zh": "ZIP 安装包", "en": "ZIP installer"}, "dmg_pkg": {"zh": "DMG 安装包", "en": "DMG installer"}, "features": {"zh": "能做什么", "en": "What it does"}, "from_readme": {"zh": "摘自", "en": "From the"}, "whats_new": {"zh": "V{version} 更新", "en": "What's new in V{version}"}, "from_notes": {"zh": "摘自正式发布说明", "en": "From the stable release notes"}, "stale": {"zh": "最新版本已更新为 V{version}，更新内容请看 {link}。", "en": "The latest version is now V{version}. See the {link} for what changed."}, "install_h": {"zh": "安装与校验", "en": "Install and verify"}, "plain": {"zh": "如实说明，不做夸大", "en": "As stated, without embellishment"}, "requirements": {"zh": "系统要求", "en": "Requirements"}, "req_os": {"zh": "macOS 14 或更高版本", "en": "macOS 14 or later"}, "req_chip": {"zh": "Apple Silicon（M 系列芯片）", "en": "Apple Silicon (M-series)"}, "req_intel": {"zh": "暂未提供 Intel 版本", "en": "No Intel version is offered"}, "install": {"zh": "安装", "en": "Install"}, "gate": {"zh": "如果 macOS 拦截打开，先确认下载来源，再到「系统设置 → 隐私与安全性」允许打开。", "en": "If macOS blocks the app, confirm the download source, then allow it in System Settings → Privacy & Security."}, "sign_data": {"zh": "签名与数据", "en": "Signing and data"}, "not_store": {"zh": "未上架 App Store。", "en": "Not listed on the App Store."}, "no_personal": {"zh": "安装包不含任何个人数据。本地数据目录：", "en": "The installer contains no personal data. Local data directory:"}, "prev": {"zh": "← 上一个", "en": "← Previous"}, "next": {"zh": "下一个 →", "en": "Next →"}, "other_apps": {"zh": "其他应用", "en": "Other apps"}, "on_page": {"zh": "本页", "en": "On this page"}, "nav_changes": {"zh": "更新", "en": "Changes"}, "dl_notes": {"zh": "下载说明", "en": "About downloads"}, "each_ships": {"zh": "每个应用独立发版", "en": "Each app ships on its own"}, "always": {"zh": "始终最新", "en": "Always current"}, "always_p": {"zh": "下载按钮指向各应用仓库最新正式 Release 中的安装包。本站每小时自动核对一次，页面打开时也会再向 GitHub 查询。", "en": "Each download button points to the installer in that app’s own latest stable Release. This site checks once an hour, and asks GitHub again when the page opens."}, "signing_h": {"zh": "签名情况", "en": "Signing"}, "signing_p": {"zh": "安装包使用 Apple Development 签名（搞文件见其页面说明），均未经 Apple 公证，也未上架 App Store。首次打开可能需要在「隐私与安全性」中允许。", "en": "Installers are signed with Apple Development (搞文件 explains its own wording on its page). None are notarized by Apple or listed on the App Store. The first open may need to be allowed under Privacy & Security."}, "checksums": {"zh": "校验", "en": "Checksums"}, "checksums_p": {"zh": "每个安装包旁都附有同名 \u003ccode>.sha256\u003c/code> 文件，下载后可用 \u003ccode>shasum -a 256 -c\u003c/code> 核验。", "en": "Each installer is accompanied by a \u003ccode>.sha256\u003c/code> file of the same name. After downloading, verify with \u003ccode>shasum -a 256 -c\u003c/code>."}, "copy_sha": {"zh": "复制 SHA-256", "en": "Copy SHA-256"}, "copy_path": {"zh": "复制路径", "en": "Copy path"}, "copy_cmd": {"zh": "复制校验命令", "en": "Copy verify command"}, "copied": {"zh": "已复制", "en": "Copied"}, "copy_fail": {"zh": "未能复制", "en": "Couldn’t copy"}, "series_line": {"zh": "搞系列之{ordinal} · {role}", "en": "No. {n} in 搞系列 · {role}"}}</script>
+<script>
+(function(){
+  var l="zh";
+  try{
+    var q=(new URLSearchParams(location.search).get("lang")||"").toLowerCase();
+    var s=localStorage.getItem("gao-lang");
+    if(q==="en"||q==="zh"){l=q;localStorage.setItem("gao-lang",q);}
+    else if(s==="en")l="en";
+  }catch(err){}
+  document.documentElement.lang=l==="en"?"en":"zh-CN";
+  try{
+    var m=JSON.parse(document.getElementById("gao-meta").textContent);
+    if(l==="en"){
+      document.title=m.title.en;
+      var d=document.querySelector('meta[name="description"]');
+      if(d)d.setAttribute("content",m.description.en);
+      var t=document.querySelector('meta[property="og:title"]');
+      if(t)t.setAttribute("content",m.title.en);
+      var g=document.querySelector('meta[property="og:description"]');
+      if(g)g.setAttribute("content",m.description.en);
+    }
+  }catch(err){}
+})();
+</script>
+<style>html:not([lang="en"]) .t-en{display:none!important}html[lang="en"] .t-zh{display:none!important}</style>
 </head>
 <body class="app theme-yanjiu">
+<a class="skip" href="#content"><span class="t-zh" lang="zh-CN">跳到正文</span><span class="t-en" lang="en">Skip to content</span></a>
 <header class="nav"><div class="wrap">
 <a class="brand" href="../"><span class="brand-mark">搞</span><span class="brand-text">搞系列</span></a>
-<nav class="nav-apps" aria-label="八个应用"><a href="../yanjiu/" aria-current="page">搞研究</a><a href="../jiezou/">搞节奏</a><a href="../jixu/">搞积蓄</a><a href="../ciyuan/">搞词元</a><a href="../jiling/">搞机灵</a><a href="../menhu/">搞门户</a><a href="../wenjian/">搞文件</a><a href="../caozuo/">搞操作</a></nav>
+<nav class="nav-apps" aria-label="八个应用" data-aria-zh="八个应用" data-aria-en="Eight apps"><a href="../yanjiu/" aria-current="page">搞研究</a><a href="../jiezou/">搞节奏</a><a href="../jixu/">搞积蓄</a><a href="../ciyuan/">搞词元</a><a href="../jiling/">搞机灵</a><a href="../menhu/">搞门户</a><a href="../wenjian/">搞文件</a><a href="../caozuo/">搞操作</a></nav>
+<div class="lang" role="radiogroup" aria-label="语言" data-aria-zh="语言" data-aria-en="Language">
+<button type="button" role="radio" data-set-lang="zh" aria-checked="true" tabindex="0">中文</button>
+<button type="button" role="radio" data-set-lang="en" aria-checked="false" tabindex="-1">EN</button>
+</div>
 </div></header>
-<main>
+<main id="content">
 <section class="hero"><div class="wrap">
   <div class="hero-text">
-    <p class="eyebrow"><span class="idx">01</span><span class="bar"></span>搞系列之一 · 科研成果</p>
+    <p class="eyebrow"><span class="idx">01</span><span class="bar"></span><span class="t-zh" lang="zh-CN">搞系列之一 · 科研成果</span><span class="t-en" lang="en">No. 1 in 搞系列 · Research output</span></p>
     <h1 class="title"><img class="icon" src="../assets/icons/yanjiu.png" alt="" width="76" height="76">搞研究</h1>
     <span class="title-en">GaoYanJiu</span>
-    <p class="tagline">论文、成果与投稿，安放在一间学术工作室里。</p>
-    <p class="lede">独立 macOS 应用，包含本模块完整业务、游戏场景和 WidgetKit 小组件。运行不依赖搞系列其他应用；联动功能需要同时安装相关应用。</p>
+    <p class="tagline"><span class="t-zh" lang="zh-CN">论文、成果与投稿，安放在一间学术工作室里。</span><span class="t-en" lang="en">Papers, results, and submissions, kept in one academic studio.</span></p>
+    <p class="lede"><span class="t-zh" lang="zh-CN">独立 macOS 应用，包含本模块完整业务、游戏场景和 WidgetKit 小组件。运行不依赖搞系列其他应用；联动功能需要同时安装相关应用。</span><span class="t-en" lang="en">A standalone macOS app with this module’s full workflow, a game scene, and WidgetKit widgets. It runs without the other 搞系列 apps; linked features need the related apps installed as well.</span></p>
     <div class="dl" data-app="yanjiu" data-repo="GaoYanJiu" data-dl="yanjiu">
-      <div class="dl dl-slot"><a class="dl-btn" href="https://github.com/UCASerYff/GaoYanJiu/releases/download/v4.14/GaoYanJiu-4.14.zip" download><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v10m0 0l-4-4m4 4l4-4M4 16h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>下载 <span class="v">V4.14</span></span></a><span class="dl-meta"><b>GaoYanJiu-4.14.zip</b><span>14.0 MB · 2026-11-10 发布 · build 15</span><span><a href="https://github.com/UCASerYff/GaoYanJiu/releases/tag/v4.14">发布说明</a> · <a href="https://github.com/UCASerYff/GaoYanJiu/releases/download/v4.14/GaoYanJiu-4.14.zip.sha256">SHA-256 校验文件</a> · <a href="https://github.com/UCASerYff/GaoYanJiu/releases">所有版本</a></span></span></div>
-      <p class="dl-req"><span>macOS 14 或更高</span><span>Apple Silicon</span><span>暂无 Intel 版</span><span>ZIP 安装包</span></p>
+      <div class="dl dl-slot"><a class="dl-btn" href="https://github.com/UCASerYff/GaoYanJiu/releases/download/v4.14/GaoYanJiu-4.14.zip" download><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v10m0 0l-4-4m4 4l4-4M4 16h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span><span class="t-zh" lang="zh-CN">下载</span><span class="t-en" lang="en">Download</span> <span class="v">V4.14</span></span></a><span class="dl-meta"><b>GaoYanJiu-4.14.zip</b><span><span class="t-zh" lang="zh-CN">14.0 MB · 2026-11-10 发布</span><span class="t-en" lang="en">14.0 MB · Released 2026-11-10</span></span><span><a href="https://github.com/UCASerYff/GaoYanJiu/releases/tag/v4.14"><span class="t-zh" lang="zh-CN">发布说明</span><span class="t-en" lang="en">Release notes</span></a> · <a href="https://github.com/UCASerYff/GaoYanJiu/releases/download/v4.14/GaoYanJiu-4.14.zip.sha256"><span class="t-zh" lang="zh-CN">SHA-256 校验文件</span><span class="t-en" lang="en">SHA-256 file</span></a> · <a href="https://github.com/UCASerYff/GaoYanJiu/releases"><span class="t-zh" lang="zh-CN">所有版本</span><span class="t-en" lang="en">All versions</span></a></span></span></div>
+      <p class="dl-req"><span><span class="t-zh" lang="zh-CN">macOS 14 或更高</span><span class="t-en" lang="en">macOS 14 or later</span></span><span>Apple Silicon</span><span><span class="t-zh" lang="zh-CN">暂无 Intel 版</span><span class="t-en" lang="en">No Intel version</span></span><span><span class="t-zh" lang="zh-CN">ZIP 安装包</span><span class="t-en" lang="en">ZIP installer</span></span></p>
     </div>
   </div>
-  <div class="stage s-yanjiu" aria-hidden="true"><div class="paper"><b>研究档案</b><i></i><i></i><i></i><i></i><i></i><div class="tags"><span>论文</span><span>成果</span><span>证书</span><span>投稿</span><span>期刊指标</span></div></div><div class="city"><span style="height:46%"></span><span style="height:78%"></span><span style="height:60%"></span><span style="height:100%"></span><span style="height:70%"></span><span style="height:88%"></span><span style="height:52%"></span></div></div>
+  <div class="stage s-yanjiu" aria-hidden="true"><div class="paper"><b><span class="t-zh" lang="zh-CN">研究档案</span><span class="t-en" lang="en">Research archive</span></b><i></i><i></i><i></i><i></i><i></i><div class="tags"><span><span class="t-zh" lang="zh-CN">论文</span><span class="t-en" lang="en">Papers</span></span><span><span class="t-zh" lang="zh-CN">成果</span><span class="t-en" lang="en">Results</span></span><span><span class="t-zh" lang="zh-CN">证书</span><span class="t-en" lang="en">Certificates</span></span><span><span class="t-zh" lang="zh-CN">投稿</span><span class="t-en" lang="en">Submissions</span></span><span><span class="t-zh" lang="zh-CN">期刊指标</span><span class="t-en" lang="en">Journal metrics</span></span></div></div><div class="city"><span style="height:46%"></span><span style="height:78%"></span><span style="height:60%"></span><span style="height:100%"></span><span style="height:70%"></span><span style="height:88%"></span><span style="height:52%"></span></div></div>
 </div></section>
-
-<section class="section"><div class="wrap">
-  <div class="sec-head"><h2>能做什么</h2><p>摘自 <a href="https://github.com/UCASerYff/GaoYanJiu#readme">GaoYanJiu README</a></p></div>
-  <ul class="features n4"><li><h3>论文与成果</h3><p>管理论文、成果、证书和投稿状态；状态更新、已归档是在投管理里的页签。科研资金已改由搞积蓄管理。</p></li><li><h3>研究附件</h3><p>保存与打开 PDF 等研究附件，查看期刊指标。附件放在应用专用数据目录。</p></li><li><h3>三维浮空研究城</h3><p>建筑、扩建与研究进度联动，科研推进会体现在城市上。</p></li><li><h3>设置与小组件</h3><p>从菜单或 ⌘, 打开设置，含外观、模块设置和本地数据目录入口；提供桌面与通知中心小组件。</p></li></ul>
+<nav class="onpage" aria-label="本页" data-aria-zh="本页" data-aria-en="On this page"><div class="wrap">
+  <a href="#features"><span class="t-zh" lang="zh-CN">能做什么</span><span class="t-en" lang="en">What it does</span></a>
+  <a href="#notes"><span class="t-zh" lang="zh-CN">更新</span><span class="t-en" lang="en">Changes</span></a>
+  <a href="#install"><span class="t-zh" lang="zh-CN">安装与校验</span><span class="t-en" lang="en">Install and verify</span></a>
+</div></nav>
+<section class="section" id="features"><div class="wrap">
+  <div class="sec-head"><h2><span class="sec-idx">01</span><span class="t-zh" lang="zh-CN">能做什么</span><span class="t-en" lang="en">What it does</span></h2><p><span class="t-zh" lang="zh-CN">摘自</span><span class="t-en" lang="en">From the</span> <a href="https://github.com/UCASerYff/GaoYanJiu#readme">GaoYanJiu README</a></p></div>
+  <ul class="features n4"><li><h3><span class="t-zh" lang="zh-CN">论文与成果</span><span class="t-en" lang="en">Papers and results</span></h3><p><span class="t-zh" lang="zh-CN">管理论文、成果、证书和投稿状态；状态更新、已归档是在投管理里的页签。科研资金已改由搞积蓄管理。</span><span class="t-en" lang="en">Manage papers, results, certificates, and submission status. Status updates and Archived are tabs inside submission tracking. Research funding is now managed in 搞积蓄.</span></p></li><li><h3><span class="t-zh" lang="zh-CN">研究附件</span><span class="t-en" lang="en">Research attachments</span></h3><p><span class="t-zh" lang="zh-CN">保存与打开 PDF 等研究附件，查看期刊指标。附件放在应用专用数据目录。</span><span class="t-en" lang="en">Save and open research attachments such as PDFs, and view journal metrics. Attachments live in the app’s own data directory.</span></p></li><li><h3><span class="t-zh" lang="zh-CN">三维浮空研究城</span><span class="t-en" lang="en">A floating 3D research city</span></h3><p><span class="t-zh" lang="zh-CN">建筑、扩建与研究进度联动，科研推进会体现在城市上。</span><span class="t-en" lang="en">Buildings and expansions follow research progress, so the work shows up on the city.</span></p></li><li><h3><span class="t-zh" lang="zh-CN">设置与小组件</span><span class="t-en" lang="en">Settings and widgets</span></h3><p><span class="t-zh" lang="zh-CN">从菜单或 ⌘, 打开设置，含外观、模块设置和本地数据目录入口；提供桌面与通知中心小组件。</span><span class="t-en" lang="en">Open Settings from the menu or with ⌘,. It includes appearance, module settings, and an entry to the local data directory, plus Desktop and Notification Center widgets.</span></p></li></ul>
 </div></section>
-
-<section class="section"><div class="wrap" data-notes-for="yanjiu" data-notes-version="4.14">
-  <div class="sec-head"><h2>V4.14 更新</h2><p>摘自正式发布说明</p></div>
-  <ul class="notes notes-fresh"><li>删除项目管理栏目及项目提醒，历史项目记录与回收站数据保留。</li><li>修复成果类别分布图的高度、类别轴、数量标签和窄窗口布局。</li><li>不再生成每日自动备份、手动完整备份、迁移备份和升级快照。</li></ul>
-  <p class="notes-stale" hidden>最新版本已更新为 V4.14，更新内容请看 <a href="https://github.com/UCASerYff/GaoYanJiu/releases/tag/v4.14">发布说明</a>。</p>
+<section class="section" id="notes"><div class="wrap" data-notes-for="yanjiu" data-notes-version="4.14">
+  <div class="sec-head"><h2><span class="sec-idx">02</span><span class="t-zh" lang="zh-CN">V4.14 更新</span><span class="t-en" lang="en">What&#x27;s new in V4.14</span></h2><p><span class="t-zh" lang="zh-CN">摘自正式发布说明</span><span class="t-en" lang="en">From the stable release notes</span></p></div>
+  <ul class="notes notes-fresh"><li><span class="t-zh" lang="zh-CN">删除项目管理栏目及项目提醒，历史项目记录与回收站数据保留。</span><span class="t-en" lang="en">The project-management section and project reminders are removed. Historical project records and Trash data are kept.</span></li><li><span class="t-zh" lang="zh-CN">修复成果类别分布图的高度、类别轴、数量标签和窄窗口布局。</span><span class="t-en" lang="en">Fixes the height, category axis, count labels, and narrow-window layout of the result-category chart.</span></li><li><span class="t-zh" lang="zh-CN">不再生成每日自动备份、手动完整备份、迁移备份和升级快照。</span><span class="t-en" lang="en">Daily automatic backups, manual full backups, migration backups, and upgrade snapshots are no longer created.</span></li></ul>
+  <p class="notes-stale" hidden><span class="t-zh" lang="zh-CN">最新版本已更新为 V4.14，更新内容请看 <a href="https://github.com/UCASerYff/GaoYanJiu/releases/tag/v4.14">发布说明</a>。</span><span class="t-en" lang="en">The latest version is now V4.14. See the <a href="https://github.com/UCASerYff/GaoYanJiu/releases/tag/v4.14">Release notes</a> for what changed.</span></p>
 </div></section>
-
-<section class="section"><div class="wrap">
-  <div class="sec-head"><h2>安装与校验</h2><p>如实说明，不做夸大</p></div>
+<section class="section" id="install"><div class="wrap">
+  <div class="sec-head"><h2><span class="sec-idx">03</span><span class="t-zh" lang="zh-CN">安装与校验</span><span class="t-en" lang="en">Install and verify</span></h2><p><span class="t-zh" lang="zh-CN">如实说明，不做夸大</span><span class="t-en" lang="en">As stated, without embellishment</span></p></div>
   <div class="facts">
-    <div class="fact"><h3>系统要求</h3><ul><li>macOS 14 或更高版本</li><li>Apple Silicon（M 系列芯片）</li><li>暂未提供 Intel 版本</li></ul></div>
-    <div class="fact"><h3>安装</h3><p>解压 ZIP，把「搞研究.app」拖入「应用程序」文件夹。安装后运行一次，再从系统小组件列表添加小组件。</p><p class="muted">如果 macOS 拦截打开，先确认下载来源，再到「系统设置 → 隐私与安全性」允许打开。</p></div>
-    <div class="fact"><h3>签名与数据</h3><p>Apple Development 签名，未经 Apple 公证。未上架 App Store。</p><p class="muted">安装包不含任何个人数据。本地数据目录：<code>~/Library/Application Support/GaoSeries/Research/</code></p><span class="sha" data-sha="yanjiu">GaoYanJiu-4.14.zip
-SHA-256 413ec04fbe2b3d90070a5ae6229369860ea24930b84c00b8eaf826cb4d49b313</span></div>
+    <div class="fact"><h3><span class="t-zh" lang="zh-CN">系统要求</span><span class="t-en" lang="en">Requirements</span></h3><ul><li><span class="t-zh" lang="zh-CN">macOS 14 或更高版本</span><span class="t-en" lang="en">macOS 14 or later</span></li><li><span class="t-zh" lang="zh-CN">Apple Silicon（M 系列芯片）</span><span class="t-en" lang="en">Apple Silicon (M-series)</span></li><li><span class="t-zh" lang="zh-CN">暂未提供 Intel 版本</span><span class="t-en" lang="en">No Intel version is offered</span></li></ul></div>
+    <div class="fact"><h3><span class="t-zh" lang="zh-CN">安装</span><span class="t-en" lang="en">Install</span></h3><p><span class="t-zh" lang="zh-CN">解压 ZIP，把「搞研究.app」拖入「应用程序」文件夹。安装后运行一次，再从系统小组件列表添加小组件。</span><span class="t-en" lang="en">Unzip and drag 搞研究.app into the Applications folder. Launch it once, then add widgets from the system widget list.</span></p><p class="muted"><span class="t-zh" lang="zh-CN">如果 macOS 拦截打开，先确认下载来源，再到「系统设置 → 隐私与安全性」允许打开。</span><span class="t-en" lang="en">If macOS blocks the app, confirm the download source, then allow it in System Settings → Privacy &amp; Security.</span></p></div>
+    <div class="fact"><h3><span class="t-zh" lang="zh-CN">签名与数据</span><span class="t-en" lang="en">Signing and data</span></h3><p><span class="t-zh" lang="zh-CN">Apple Development 签名，未经 Apple 公证。</span><span class="t-en" lang="en">Signed with Apple Development. Not notarized by Apple.</span> <span class="t-zh" lang="zh-CN">未上架 App Store。</span><span class="t-en" lang="en">Not listed on the App Store.</span></p><p class="muted"><span class="t-zh" lang="zh-CN">安装包不含任何个人数据。本地数据目录：</span><span class="t-en" lang="en">The installer contains no personal data. Local data directory:</span></p><p class="pathrow"><code>~/<wbr>Library/<wbr>Application Support/<wbr>GaoSeries/<wbr>Research/<wbr></code><button type="button" class="copy" data-copy="~/Library/Application Support/GaoSeries/Research/"><span class="copy-idle"><span class="t-zh" lang="zh-CN">复制路径</span><span class="t-en" lang="en">Copy path</span></span><span class="copy-done"><span class="t-zh" lang="zh-CN">已复制</span><span class="t-en" lang="en">Copied</span></span></button></p><div class="sha" data-sha="yanjiu"><p class="sha-file">GaoYanJiu-4.14.zip</p><p class="sha-hex"><span class="sha-k">SHA-256</span> 413ec04f<wbr>be2b3d90<wbr>070a5ae6<wbr>22936986<wbr>0ea24930<wbr>b84c00b8<wbr>eaf826cb<wbr>4d49b313</p><div class="sha-actions"><button type="button" class="copy" data-copy="413ec04fbe2b3d90070a5ae6229369860ea24930b84c00b8eaf826cb4d49b313"><span class="copy-idle"><span class="t-zh" lang="zh-CN">复制 SHA-256</span><span class="t-en" lang="en">Copy SHA-256</span></span><span class="copy-done"><span class="t-zh" lang="zh-CN">已复制</span><span class="t-en" lang="en">Copied</span></span></button><button type="button" class="copy" data-copy="shasum -a 256 -c GaoYanJiu-4.14.zip.sha256"><span class="copy-idle"><span class="t-zh" lang="zh-CN">复制校验命令</span><span class="t-en" lang="en">Copy verify command</span></span><span class="copy-done"><span class="t-zh" lang="zh-CN">已复制</span><span class="t-en" lang="en">Copied</span></span></button></div></div></div>
   </div>
 </div></section>
-
-<div class="wrap"><nav class="pager" aria-label="其他应用">
-  <a href="../caozuo/"><small>← 上一个</small><b>搞操作</b></a>
-  <a class="next" href="../jiezou/"><small>下一个 →</small><b>搞节奏</b></a>
+<div class="wrap"><nav class="pager" aria-label="其他应用" data-aria-zh="其他应用" data-aria-en="Other apps">
+  <a href="../caozuo/"><small><span class="t-zh" lang="zh-CN">← 上一个</span><span class="t-en" lang="en">← Previous</span></small><b>搞操作</b></a>
+  <a class="next" href="../jiezou/"><small><span class="t-zh" lang="zh-CN">下一个 →</span><span class="t-en" lang="en">Next →</span></small><b>搞节奏</b></a>
 </nav></div>
 </main>
 <footer class="foot"><div class="wrap">
-<div>搞系列 · 作者 非凡（Feifan Yu） · <a href="https://github.com/UCASerYff">github.com/UCASerYff</a></div>
-<nav><a href="../">总览</a><a href="https://github.com/UCASerYff/gao-apps">本站源码</a><span>安装包均托管在各应用仓库的 GitHub Releases</span></nav>
+<div><span class="t-zh" lang="zh-CN">搞系列 · 作者 非凡（Feifan Yu）</span><span class="t-en" lang="en">搞系列 · Author 非凡 (Feifan Yu)</span> · <a href="https://github.com/UCASerYff">github.com/UCASerYff</a></div>
+<nav aria-label="总览" data-aria-zh="总览" data-aria-en="Overview"><a href="../"><span class="t-zh" lang="zh-CN">总览</span><span class="t-en" lang="en">Overview</span></a><a href="https://github.com/UCASerYff/gao-apps"><span class="t-zh" lang="zh-CN">本站源码</span><span class="t-en" lang="en">Site source</span></a><span><span class="t-zh" lang="zh-CN">安装包均托管在各应用仓库的 GitHub Releases</span><span class="t-en" lang="en">Installers are hosted on each app’s GitHub Releases</span></span></nav>
 </div></footer>
+<p class="sr" id="copy-status" aria-live="polite"></p>
 <script src="../assets/site.js" defer></script>
 </body>
 </html>
