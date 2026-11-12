@@ -4,6 +4,7 @@
 所有介绍、功能、要求均摘自各应用仓库的 README、Info.plist / VERSION 与正式 Release 说明
 （核对日期 2026-11-12）。修改前请先回到对应仓库核实，不要凭印象改写。
 版本号、安装包链接不写在这里，由 tools/update_latest.py 从 GitHub Releases 自动获取。
+英文译文和界面用语在 tools/i18n.py，改中文时请一并改英文。
 """
 
 OWNER = "UCASerYff"
