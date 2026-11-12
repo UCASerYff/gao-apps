@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>搞文件 · LaTeX 与 Markdown 的本地写作台，离线编译 | 搞系列</title>
+<meta name="description" content="以 LaTeX、Markdown 写作与编译为核心的 macOS 本地工作台。账户、联网同步和 AI 功能暂不开发。">
+<meta name="theme-color" content="#f8f6f0">
+<meta property="og:title" content="搞文件 · LaTeX 与 Markdown 的本地写作台，离线编译 | 搞系列">
+<meta property="og:description" content="以 LaTeX、Markdown 写作与编译为核心的 macOS 本地工作台。账户、联网同步和 AI 功能暂不开发。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ucaseryff.github.io/gao-apps/wenjian/">
+<link rel="canonical" href="https://ucaseryff.github.io/gao-apps/wenjian/">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="app theme-wenjian">
+<header class="nav"><div class="wrap">
+<a class="brand" href="../"><span class="brand-mark">搞</span><span class="brand-text">搞系列</span></a>
+<nav class="nav-apps" aria-label="八个应用"><a href="../yanjiu/">搞研究</a><a href="../jiezou/">搞节奏</a><a href="../jixu/">搞积蓄</a><a href="../ciyuan/">搞词元</a><a href="../jiling/">搞机灵</a><a href="../menhu/">搞门户</a><a href="../wenjian/" aria-current="page">搞文件</a><a href="../caozuo/">搞操作</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap">
+  <div class="hero-text">
+    <p class="eyebrow"><span class="idx">07</span><span class="bar"></span>搞系列之七 · 写作与编译</p>
+    <h1 class="title"><img class="icon" src="../assets/icons/wenjian.png" alt="" width="76" height="76">搞文件</h1>
+    <span class="title-en">GaoWenJian</span>
+    <p class="tagline">LaTeX 与 Markdown 的本地写作台，离线编译。</p>
+    <p class="lede">以 LaTeX、Markdown 写作与编译为核心的 macOS 本地工作台。账户、联网同步和 AI 功能暂不开发。</p>
+    <div class="dl" data-app="wenjian" data-repo="GaoWenJian" data-dl="wenjian">
+      <div class="dl dl-slot"><a class="dl-btn" href="https://github.com/UCASerYff/GaoWenJian/releases/download/v1.11/GaoWenJian-1.11.dmg" download><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v10m0 0l-4-4m4 4l4-4M4 16h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>下载 <span class="v">V1.11</span></span></a><span class="dl-meta"><b>GaoWenJian-1.11.dmg</b><span>79.5 MB · 2026-11-11 发布 · build 12</span><span><a href="https://github.com/UCASerYff/GaoWenJian/releases/tag/v1.11">发布说明</a> · <a href="https://github.com/UCASerYff/GaoWenJian/releases/download/v1.11/GaoWenJian-1.11.dmg.sha256">SHA-256 校验文件</a> · <a href="https://github.com/UCASerYff/GaoWenJian/releases">所有版本</a></span></span></div>
+      <p class="dl-req"><span>macOS 14 或更高</span><span>Apple Silicon</span><span>暂无 Intel 版</span><span>DMG 安装包</span></p>
+    </div>
+  </div>
+  <div class="stage s-wenjian" aria-hidden="true"><pre><span class="k">\documentclass</span>{article}
+<span class="k">\begin</span>{document}
+<span class="k">\section</span>{引言}
+本文讨论……
+<span class="c">% SyncTeX 双向定位</span>
+<span class="k">\begin</span>{equation}
+  <span class="a">E = mc^2</span>
+<span class="k">\end</span>{equation}
+<span class="k">\end</span>{document}</pre><div class="page"><h4>论文标题</h4><small>作者</small><b>1 引言</b><i></i><i class="hl"></i><i></i><p class="eq">E = mc²</p><i></i><i style="width:70%"></i></div><span class="sync">⇄ SyncTeX</span></div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="sec-head"><h2>能做什么</h2><p>摘自 <a href="https://github.com/UCASerYff/GaoWenJian#readme">GaoWenJian README</a></p></div>
+  <ul class="features n5"><li><h3>LaTeX</h3><p>识别主文件与 % !TeX root，大纲导航与智能补全；结构化诊断；SyncTeX 双向定位；内置 Tectonic 离线编译，也支持本机 XeLaTeX / pdfLaTeX / LuaLaTeX。</p></li><li><h3>Markdown</h3><p>即时块编辑、源码与分屏、大纲、表格、公式、Mermaid、代码高亮，可导出 HTML / PDF。</p></li><li><h3>PDF 编辑</h3><p>阅读、搜索、批注、表单，插入文字与图片；页面旋转、裁剪、排序、合并、拆分；提供 OCR 交接入口。</p></li><li><h3>Office 与表格</h3><p>Word / Excel / PPT 只读预览；CSV / TSV 可在源码与表格间切换，筛选、排序、增行列。</p></li><li><h3>桌面便笺</h3><p>富文本与图片 / PDF 附件、六色分组、搜索和回收站；独立桌面窗口，可置顶、半透明。</p></li></ul>
+</div></section>
+
+<section class="section"><div class="wrap" data-notes-for="wenjian" data-notes-version="1.11">
+  <div class="sec-head"><h2>V1.11 更新</h2><p>摘自正式发布说明</p></div>
+  <ul class="notes notes-fresh"><li>重新设计工作台：暖白与深石墨配色，森林绿强调，LaTeX 与 Markdown 入口优先。</li><li>PDF 编辑与 OCR 同组，Office 查看合并为一个入口，最近文件可直接继续。</li><li>移除保存前历史快照、工作区 ZIP 备份等自动备份；外部修改冲突仍阻止覆盖。</li></ul>
+  <p class="notes-stale" hidden>最新版本已更新为 V1.11，更新内容请看 <a href="https://github.com/UCASerYff/GaoWenJian/releases/tag/v1.11">发布说明</a>。</p>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="sec-head"><h2>安装与校验</h2><p>如实说明，不做夸大</p></div>
+  <div class="facts">
+    <div class="fact"><h3>系统要求</h3><ul><li>macOS 14 或更高版本</li><li>Apple Silicon（M 系列芯片）</li><li>暂未提供 Intel 版本</li></ul></div>
+    <div class="fact"><h3>安装</h3><p>打开 DMG，把「搞文件」拖入「应用程序」。默认安装位置 /Applications/搞文件.app。</p><p class="muted">如果 macOS 拦截打开，先确认下载来源，再到「系统设置 → 隐私与安全性」允许打开。</p></div>
+    <div class="fact"><h3>签名与数据</h3><p>未经 Apple 公证。README 写作「本地签名」，V1.11 发布说明写作固定 Apple Development 身份逐组件签名。未上架 App Store。</p><p class="muted">安装包不含任何个人数据。本地数据目录：<code>~/Library/Application Support/GaoSeries/GaoWenJian</code></p><span class="sha" data-sha="wenjian">GaoWenJian-1.11.dmg
+SHA-256 2d7596831ced037b3c0fc6708ce946a891e3ee128c5b13b14c8484b162ce8926</span></div>
+  </div>
+</div></section>
+
+<div class="wrap"><nav class="pager" aria-label="其他应用">
+  <a href="../menhu/"><small>← 上一个</small><b>搞门户</b></a>
+  <a class="next" href="../caozuo/"><small>下一个 →</small><b>搞操作</b></a>
+</nav></div>
+</main>
+<footer class="foot"><div class="wrap">
+<div>搞系列 · 作者 非凡（Feifan Yu） · <a href="https://github.com/UCASerYff">github.com/UCASerYff</a></div>
+<nav><a href="../">总览</a><a href="https://github.com/UCASerYff/gao-apps">本站源码</a><span>安装包均托管在各应用仓库的 GitHub Releases</span></nav>
+</div></footer>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

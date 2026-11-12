@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>搞机灵 · 电脑的小动静，一眼就知道 | 搞系列</title>
+<meta name="description" content="原生 macOS 边缘系统监控工具，使用 SwiftUI、AppKit、Mach/IOKit/libproc 和 SQLite。监控记录保存在本机，无第三方运行时，无 AI，无账号。">
+<meta name="theme-color" content="#0c0d0f">
+<meta property="og:title" content="搞机灵 · 电脑的小动静，一眼就知道 | 搞系列">
+<meta property="og:description" content="原生 macOS 边缘系统监控工具，使用 SwiftUI、AppKit、Mach/IOKit/libproc 和 SQLite。监控记录保存在本机，无第三方运行时，无 AI，无账号。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ucaseryff.github.io/gao-apps/jiling/">
+<link rel="canonical" href="https://ucaseryff.github.io/gao-apps/jiling/">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="app theme-jiling">
+<header class="nav"><div class="wrap">
+<a class="brand" href="../"><span class="brand-mark">搞</span><span class="brand-text">搞系列</span></a>
+<nav class="nav-apps" aria-label="八个应用"><a href="../yanjiu/">搞研究</a><a href="../jiezou/">搞节奏</a><a href="../jixu/">搞积蓄</a><a href="../ciyuan/">搞词元</a><a href="../jiling/" aria-current="page">搞机灵</a><a href="../menhu/">搞门户</a><a href="../wenjian/">搞文件</a><a href="../caozuo/">搞操作</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap">
+  <div class="hero-text">
+    <p class="eyebrow"><span class="idx">05</span><span class="bar"></span>搞系列之五 · 系统监控</p>
+    <h1 class="title"><img class="icon" src="../assets/icons/jiling.png" alt="" width="76" height="76">搞机灵</h1>
+    <span class="title-en">GaoJiLing</span>
+    <p class="tagline">电脑的小动静，一眼就知道。</p>
+    <p class="lede">原生 macOS 边缘系统监控工具，使用 SwiftUI、AppKit、Mach/IOKit/libproc 和 SQLite。监控记录保存在本机，无第三方运行时，无 AI，无账号。</p>
+    <div class="dl" data-app="jiling" data-repo="GaoJiLing" data-dl="jiling">
+      <div class="dl dl-slot"><a class="dl-btn" href="https://github.com/UCASerYff/GaoJiLing/releases/download/v1.16/GaoJiLing-1.16.dmg" download><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v10m0 0l-4-4m4 4l4-4M4 16h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>下载 <span class="v">V1.16</span></span></a><span class="dl-meta"><b>GaoJiLing-1.16.dmg</b><span>4.4 MB · 2026-11-11 发布 · build 116</span><span><a href="https://github.com/UCASerYff/GaoJiLing/releases/tag/v1.16">发布说明</a> · <a href="https://github.com/UCASerYff/GaoJiLing/releases/download/v1.16/GaoJiLing-1.16.dmg.sha256">SHA-256 校验文件</a> · <a href="https://github.com/UCASerYff/GaoJiLing/releases">所有版本</a></span></span></div>
+      <p class="dl-req"><span>macOS 14 或更高</span><span>Apple Silicon</span><span>暂无 Intel 版</span><span>DMG 安装包</span></p>
+    </div>
+  </div>
+  <div class="stage s-jiling" aria-hidden="true"><div class="edge"></div><div class="panel"><svg viewBox="0 0 300 70" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#6ef08a" stroke-width="2" points="0,52 20,48 40,50 60,30 80,38 100,22 120,34 140,28 160,44 180,18 200,26 220,40 240,24 260,30 280,14 300,22"/></svg><div class="meter">CPU<div style="--w:62%"></div></div><div class="meter">MEM<div style="--w:48%"></div></div><div class="meter">SWAP<div style="--w:22%"></div></div><div class="meter">NET<div style="--w:35%"></div></div><div class="meter">DISK<div style="--w:54%"></div></div></div></div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="sec-head"><h2>能做什么</h2><p>摘自 <a href="https://github.com/UCASerYff/GaoJiLing#readme">GaoJiLing README</a></p></div>
+  <ul class="features n6"><li><h3>边缘悬浮面板</h3><p>收起时只是屏幕边上的一条竖线，悬停或点击展开；默认 ⌥⌘G 呼出。</p></li><li><h3>实时监控</h3><p>CPU、内存压力、压缩内存、Swap、网络与磁盘吞吐、应用排行，以及按机型可读的传感器。</p></li><li><h3>回看与任务</h3><p>最近 24 小时趋势回看；手动记录编译、渲染等任务的时长、平均与峰值并导出。</p></li><li><h3>清理与存储分析</h3><p>限定范围的旧缓存、日志与 Xcode 构建产物，确认后移入废纸篓并可按批恢复；存储分析和磁盘地图只读不删。</p></li><li><h3>卷与镜像</h3><p>V1.15 起提供本机内置卷信息和普通 NTFS 卷镜像的只读分析。</p></li><li><h3>应用管理与内存回收</h3><p>逐项确认后卸载应用并可恢复；展示真实内存读数和回收结果，不承诺提速。</p></li></ul>
+</div></section>
+
+<section class="section"><div class="wrap" data-notes-for="jiling" data-notes-version="1.16">
+  <div class="sec-head"><h2>V1.16 更新</h2><p>摘自正式发布说明</p></div>
+  <ul class="notes notes-fresh"><li>移除升级安装时的资料备份、旧程序回滚归档和恢复前的自动安全备份。</li><li>用户主动导出、从所选文件恢复仍保留。</li><li>签名从旧的 ad-hoc 身份改为 Apple Development，系统权限不会自动继承，需要时请在系统设置中重新授权。</li></ul>
+  <p class="notes-stale" hidden>最新版本已更新为 V1.16，更新内容请看 <a href="https://github.com/UCASerYff/GaoJiLing/releases/tag/v1.16">发布说明</a>。</p>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="sec-head"><h2>安装与校验</h2><p>如实说明，不做夸大</p></div>
+  <div class="facts">
+    <div class="fact"><h3>系统要求</h3><ul><li>macOS 14 或更高版本</li><li>Apple Silicon（M 系列芯片）</li><li>暂未提供 Intel 版本</li></ul></div>
+    <div class="fact"><h3>安装</h3><p>打开 DMG，把「搞机灵.app」拖入「应用程序」。更新时先退出旧版再替换；历史、任务和设置保存在独立的数据目录中。</p><p class="muted">如果 macOS 拦截打开，先确认下载来源，再到「系统设置 → 隐私与安全性」允许打开。</p></div>
+    <div class="fact"><h3>签名与数据</h3><p>Apple Development 签名，未作 Developer ID 签名或公证。由旧 ad-hoc 签名切换而来，系统权限需重新授权。未上架 App Store。</p><p class="muted">安装包不含任何个人数据。本地数据目录：<code>~/Library/Application Support/GaoSeries/GaoJiLing/</code></p><span class="sha" data-sha="jiling">GaoJiLing-1.16.dmg
+SHA-256 54ee50ca8b4e8a8c6a9e4eb86c189494900b1c9397553e34b8f75e815114d0fb</span></div>
+  </div>
+</div></section>
+
+<div class="wrap"><nav class="pager" aria-label="其他应用">
+  <a href="../ciyuan/"><small>← 上一个</small><b>搞词元</b></a>
+  <a class="next" href="../menhu/"><small>下一个 →</small><b>搞门户</b></a>
+</nav></div>
+</main>
+<footer class="foot"><div class="wrap">
+<div>搞系列 · 作者 非凡（Feifan Yu） · <a href="https://github.com/UCASerYff">github.com/UCASerYff</a></div>
+<nav><a href="../">总览</a><a href="https://github.com/UCASerYff/gao-apps">本站源码</a><span>安装包均托管在各应用仓库的 GitHub Releases</span></nav>
+</div></footer>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>
